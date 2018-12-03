@@ -32,8 +32,8 @@ class SearchPage extends React.Component {
       } else {
         res.forEach(item => {
           let find = this.state.books.filter(myBook => myBook.id === item.id);
-          item.shelf = find[0];
           if (find[0]) {
+            item.shelf = find[0].shelf;
           }
         });
         return this.setState({ results: res });

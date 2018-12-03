@@ -1,4 +1,4 @@
-#How to catalogue your books:
+**How to catalogue your books:**
 
 1.  Download the repo from [Here](git@github.com:Sbabureddy/fend-project-myreads-starter.git)
 1.  Make sure you have installed npm in machine by typing `npm -v` in cmd.
